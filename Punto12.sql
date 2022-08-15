@@ -17,4 +17,4 @@ dni_duenno int not null,
 foreign key (dni_duenno) references duenno(DNI)
 );
 
-select * from perro where sexo == 'Macho' and fecha_nac > 2020 AND fecha_nac < 2022
+select * from perro where sexo = 'Macho' and fecha_nac > 2020 AND fecha_nac < 2022
