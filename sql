@@ -2,11 +2,13 @@ ejercicio 1
 
 create database perros;
  use perros; 
+ 
 create table duenno( DNI int not null auto_increment primary key,
  nombre varchar (100) not null,
  apellido varchar (80) not null,
  telefono varchar (80), 
 direccion varchar(150) not null ); 
+
 create table perro( id_perro int not null auto_increment primary key,
  nombre varchar (100) not null,
  fecha_nac varchar(100), 
